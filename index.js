@@ -21,7 +21,9 @@ const esRules = {
       SwitchCase: 1,
     },
   ],
+
   'import/no-unresolved': 'off',
+  'react/prop-types': 'off',
 };
 
 module.exports = {
