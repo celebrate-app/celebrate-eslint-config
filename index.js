@@ -21,6 +21,7 @@ const esRules = {
       SwitchCase: 1,
     },
   ],
+  'import/no-unresolved': 'off',
 };
 
 module.exports = {
@@ -55,7 +56,6 @@ module.exports = {
       ],
       rules: {
         ...esRules,
-        'import/no-unresolved': 'off',
         'react/jsx-filename-extension': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/explicit-function-return-type': 0,
