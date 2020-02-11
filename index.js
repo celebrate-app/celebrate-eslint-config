@@ -24,6 +24,9 @@ const esRules = {
 
   'import/no-unresolved': 'off',
   'react/prop-types': 'off',
+
+  // Needed for requiring images etc. in React Native
+  'global-require': 'off',
 };
 
 module.exports = {
