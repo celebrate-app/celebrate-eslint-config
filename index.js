@@ -27,6 +27,9 @@ const esRules = {
 
   // Needed for requiring images etc. in React Native
   'global-require': 'off',
+
+  // TypeScript does not allow importing with `.tsx` extensions
+  'import/extensions': 'off',
 };
 
 module.exports = {
